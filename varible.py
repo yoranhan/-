@@ -1,6 +1,6 @@
 1 번 문제
 print("원의둘레와 면적을 계산")
-r=int(input('cm'))
+r=float(input('cm'))
 l1= str(2*r)
 l2=l1+ 'ㅠ'
 
@@ -10,9 +10,9 @@ s2=s1+'ㅠ'
 print('둘레 : ' +l2 ,'넓이 : ' +s2)
 
 2번 문제
-price = int(input('구매 가격'))
-discount = int(input('할인율'))
-delivery = int(input('배송비'))
+price = float(input('구매 가격'))
+discount = float(input('할인율'))
+delivery = float(input('배송비'))
 
 nam = price - (discount/100 * price) +delivery
 
