@@ -26,3 +26,12 @@ else:
         print("5의 배수 가챠!")
     else:
         print("국어 시간에 주무셨나요")
+
+모음자음 판별
+alaph =  input("알파벳 자음 모음 판단: ") 
+
+
+if alaph == 'a' or alaph == 'o' or alaph == 'e' or alaph == 'i' or alaph == 'u':
+    print("모음")
+else:
+    print("자음")
