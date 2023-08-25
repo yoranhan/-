@@ -12,3 +12,17 @@ elif 12<month:
     print("달력보고오세요")
 else:
     print("가을입니다.")
+
+4와 5의 배수 판별
+
+num = int(input("4의 배수 와 5의 배수를 판별 : "))
+
+if num % 4 == 0 and num % 5 ==0:
+    print("4와 5의 배수 가챠!")
+else:
+    if num % 4 ==0:
+        print("4의 배수 가챠!")
+    elif num%5 ==0:
+        print("5의 배수 가챠!")
+    else:
+        print("국어 시간에 주무셨나요")
