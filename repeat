@@ -1,0 +1,17 @@
+5의 배수가 아닌 수의 함계 구하기
+
+u=[]
+y=50
+p=0
+for x in range(51):
+    y = y+x
+    u.append(y)
+    
+for z in u:
+    if z % 5 ==0:
+        print("거절")
+    else:
+        p=p+z
+        
+print(p)
+    
