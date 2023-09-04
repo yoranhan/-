@@ -18,3 +18,19 @@ while n >=0:
             print('*', end=' ')
             n =n-1
         print()
+
+
+
+
+a=0
+b=0
+
+
+while a<5:
+    b=0
+    while b<10:
+        print('*', end=' ')
+        b = b+1
+    print()
+    a+=1
+    
