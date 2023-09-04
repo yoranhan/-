@@ -1,8 +1,8 @@
 n=int(input('세로를 입력해주세요. : '))
 m=int(input('가로를 입력해주세요. : '))
 
-for i in range(1,n):
-    for j in range(1,m):
+for i in range(1,n+1):
+    for j in range(1,m+1):
         print('*', end=' ')
     print()
 
@@ -13,8 +13,8 @@ n=int(input('세로를 입력해주세요. : '))
 m=int(input('가로를 입력해주세요. : '))
 
 while n >=0:
-    for i in range(1,n):
-        for j in range(1,m):
+    for i in range(1,n+1):
+        for j in range(1,m+1):
             print('*', end=' ')
             n =n-1
         print()
