@@ -1,0 +1,32 @@
+data = [-12 ,3 ,-9 ,5, 8 ,-2 , 0, -8, 3,10]
+data.sort(reverse=True)
+
+
+print(data)
+[10, 8, 5, 3, 3, 0, -2, -8, -9, -12]
+
+----------------
+
+data = [-12 ,3 ,-9 ,5, 8 ,-2 , 0, -8, 3,10]
+data.sort()
+print(data)
+[-12, -9, -8, -2, 0, 3, 3, 5, 8, 10]
+
+-----------
+
+data = [-12 ,3 ,-9 ,5, 8 ,-2 , 0, -8, 3,10]
+data.remove(-12)
+print(data)
+[3, -9, 5, 8, -2, 0, -8, 3, 10]
+
+----------
+
+largest=0
+data = [-12 ,3 ,-9 ,5, 8 ,-2 , 0, -8, 3,10,100]
+for i in range(len(data)):
+    if largest < data[i]:
+        largest = data[i]
+        
+
+
+print(largest)
